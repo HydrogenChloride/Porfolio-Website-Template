@@ -7,7 +7,7 @@
 }
 
 html {
-    font-size: 30px;
+    font-size: 1.5rem;
     font-family: 'Teko', sans-serif;
     scroll-behavior: smooth;
 }
@@ -657,20 +657,22 @@ p {
     #footer .footer {
         min-height: 100px;
         flex-direction: column;
-        padding-bottom: 1rem;
+        padding-bottom: .2rem;
     }
 
     #footer h1 {
         color: rgb(207,181,59);
+        margin-top: .5rem;
+        letter-spacing: .05rem;
+        line-height: 1;
     }
 
     #footer h2 {
         color: white;
         font-weight: 500;
-        font-size: 1rem;
         letter-spacing: .05rem;
         margin: 0;
-        font-size: .7rem;
+        font-size: .9rem;
     }
 
     #footer .social-icon {
@@ -681,11 +683,13 @@ p {
     #footer .social-item {
         height: 1rem;
         width: 100%;
+        padding-left: .3rem;
+        padding-right: .3rem;
     }
 
     #footer p {
         color: white;
-        font-size: .7rem;
+        font-size: .6rem;
         letter-spacing: .05rem;
         margin: 0;
     }
