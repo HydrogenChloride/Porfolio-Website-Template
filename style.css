@@ -226,19 +226,19 @@ p {
 }
 
     #home h1:nth-child(1) {
-        animation-delay: .2s;
+        animation-delay: .5s;
         font-size: 2.5rem;
         line-height: 3rem;
     }
 
     #home h1:nth-child(2) {
         animation: text_reveal_name .5s ease forwards;
-        animation-delay: .7s;
+        animation-delay: 1s;
         line-height: 4rem;
     }
 
     #home h1:nth-child(3) {
-        animation-delay: 1.2s;
+        animation-delay: 1.5s;
         font-size: 1.5rem;
         line-height: 2rem;
         margin-bottom: 1rem;
@@ -253,7 +253,7 @@ p {
         opacity: 1;
         background-color: #231F20;
         animation: text_reveal_box 1s ease;
-        animation-delay: .5s;
+        animation-delay: 0s;
     }
 
     #home h1:nth-child(1) span {
